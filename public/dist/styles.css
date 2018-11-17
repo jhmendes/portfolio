@@ -49,67 +49,94 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  line-height: 1; }
-
-ol,
-ul {
-  list-style: none; }
-
-blockquote,
-q {
-  quotes: none; }
-
-blockquote:after,
-blockquote:before,
-q:after,
-q:before {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%; }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  line-height: 1.2;
+  background: #83a4d4;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #b6fbff, #83a4d4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #b6fbff, #83a4d4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #000; }
 
-h1 {
-  font-weight: 100;
-  font-size: 50px; }
+.main {
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  @media only screen and (min-width: 768px) {
+    .main {
+      height: 500px; } }
 
-.home {
-  height: 100%;
-  width: 100%;
+.title,
+.connect {
   text-align: center; }
-  .home .Aligner {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .home img {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto; }
-  .home .Aligner-item {
-    max-width: 50%; }
-  .home .menu ul li {
-    padding: 10px 15px;
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 500; }
-  .home .version-num {
-    background: #E8E8E8;
-    border-radius: 4px;
-    padding: 7px 15px;
-    display: inline-block;
-    font-size: 12px;
-    margin: 10px 0 20px; }
-  .home a {
-    text-decoration: none;
-    color: #30395C;
-    transition: all 0.3s ease-in-out; }
-  .home a:hover {
-    color: #43D4D6; }
+
+.title h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+  @media only screen and (min-width: 768px) {
+    .title h1 {
+      font-size: 5rem; } }
+
+.title h2 {
+  font-size: 1.7rem; }
+  @media only screen and (min-width: 768px) {
+    .title h2 {
+      font-size: 3rem; } }
+
+.content {
+  font-size: 1.7rem;
+  text-align: center;
+  font-style: italic; }
+  @media only screen and (min-width: 768px) {
+    .content {
+      font-size: 3.5rem; } }
+
+.connect h3 {
+  font-size: 1.5rem; }
+  @media only screen and (min-width: 768px) {
+    .connect h3 {
+      font-size: 3rem; } }
+
+.social-icons {
+  margin-top: 3rem; }
+
+.social-icons a ion-icon {
+  height: 3.3rem;
+  width: 3.3rem; }
+  @media only screen and (min-width: 768px) {
+    .social-icons a ion-icon {
+      height: 10rem;
+      width: 10rem; } }
+
+.social-icons a {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  transition: all .3s; }
+
+.social-icons a:visited,
+.social-icons a:link {
+  color: #000; }
+
+.social-icons a[href="https://github.com/jhmendes"]:hover {
+  color: #6cc644; }
+
+.social-icons a[href="https://www.linkedin.com/in/johnhmendes/"]:hover {
+  color: #0077b5; }
+
+.social-icons a[href="https://twitter.com/johnhmendes"]:hover {
+  color: #00aced; }
 

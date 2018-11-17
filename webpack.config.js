@@ -48,13 +48,13 @@ module.exports = env => {
 			new MiniCssExtractPlugin({
 				filename: 'styles.css' // 'style.[contenthash].css' put this if you want to get hashed files to cache bust
 			}),
-			// new HtmlWebpackPlugin({
-			// 	inject: false,
-			// 	hash: true,
-			// 	template: './assets/index.html',
-			// 	children: false,
-			// 	filename: '../index.html'
-			// }),
+			new HtmlWebpackPlugin({
+				inject: false,
+				hash: true,
+				template: './assets/index.html',
+				children: false,
+				filename: '../index.html'
+			}),
 			new WebpackMd5Hash()
 		],
 		optimization: {
