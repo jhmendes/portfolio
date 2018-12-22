@@ -18,7 +18,7 @@ body {
 
 .main {
     width: 75%;
-    height: 300px;
+    height: 50vh;
     margin: auto;
     position: fixed;
     top: 50%;
@@ -29,10 +29,20 @@ body {
     justify-content: space-around;
 
     @media only screen and (min-width: 768px) {
-        height: 500px;
+        height: 100vh;
     }
 }
 
+.headshot {
+    border-radius: 20px;
+    box-shadow: -10px 10px 5px rgba(0,0,0,.6);
+    height: 250px;
+    margin-bottom: 50px;
+    @media only screen and (min-width: 768px) {
+        height:auto;
+    }
+
+}
 
 
 .title,
@@ -58,6 +68,8 @@ body {
         font-size: 3rem;
     }
 }
+
+
 
 .content {
     font-size: 1.7rem;
