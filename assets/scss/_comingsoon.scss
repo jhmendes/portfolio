@@ -151,6 +151,8 @@ body {
 
 .social-icons {
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icons a ion-icon {
