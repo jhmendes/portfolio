@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Portfolio Website 2019",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhmendes/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhmendes/portfolio/issues"
+  },
+  "homepage": "https://github.com/jhmendes/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
