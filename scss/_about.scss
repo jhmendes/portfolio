@@ -1,0 +1,105 @@
+//About Sections
+
+#about {
+    //About A
+    &-a {
+
+        .about-info {
+            display: grid;
+            grid-template-areas:
+            'bioimage bio bio'
+            'aw1 aw2 aw3';
+            grid-gap: 1.2rem;
+        }
+
+        //Grid Areas
+
+        .bio-image {
+            grid-area: bioimage;
+        }
+
+        .bio {
+            grid-area: bio;
+            border-left: 3px solid $main-color;
+            padding: 0.8rem;
+        }
+
+        .award {
+            &-1 {
+                grid-area: aw1;
+            }
+            &-2 {
+                grid-area: aw2;
+            }
+            &-3 {
+                grid-area: aw3;
+            }
+
+            &-1 .fas,
+            &-2 .fas,
+            &-3 .fas {
+                color: $main-color;
+                margin: 1rem;
+            }
+
+        }
+    }
+    //About B
+    &-b {
+        .progress {
+            overflow: hidden;
+            height: 20px;
+            background: $medium-color;
+            border-radius: 5px;
+            margin-bottom: 0.6rem;
+
+             div {
+                background: $main-color;
+                height: 100%;
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+
+    //About C 
+    &-c {
+        .about-logos {
+
+            //Noting here to come back to this and create a mosaic gallery
+            @extend %repeat4;
+            grid-gap: 2rem;
+            
+            img {
+                width: 70%;
+            }
+        }
+    }
+
+    &-d {
+        .testimonials {
+            @extend %repeat4;
+            grid-gap: 0.5rem;
+
+            ul {
+                list-style: none;
+                margin-top: 1rem;
+                display: flex;
+                align-items: center;
+            }
+
+            p {
+                border: 1px solid $medium-color;
+                border-radius: 5px;
+                padding: 0.5rem;
+            }
+
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
