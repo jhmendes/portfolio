@@ -112,6 +112,10 @@ input[class^='btn-']:hover {
     grid-template-columns: repeat(4, 1fr);
 }
 
+%mobileStack {
+    grid-template-columns: 1fr;
+}
+
 .section-title {
     font-size: 2rem;
     display: block;
