@@ -11,7 +11,7 @@
             'aw1 aw2 aw3';
             grid-gap: 1.2rem;
         }
-
+ 
         //Grid Areas
 
         .bio-image {
@@ -21,7 +21,12 @@
         .bio {
             grid-area: bio;
             border-left: 3px solid $main-color;
-            padding: 0.8rem;
+            padding: 2rem;
+            text-align: left;
+
+            p {
+                font-size: 20px;
+            }
         }
 
         .award {
@@ -65,15 +70,23 @@
     //About C 
     &-c {
         .about-logos {
-
             //Noting here to come back to this and create a mosaic gallery
             @extend %repeat4;
-            grid-gap: 2rem;
-            
-            img {
-                width: 70%;
+            grid-gap: 2.5rem;
+
+            p {
+                font-size: 2rem;
+
+                i {
+                    display: block;
+                    font-size: 3.5rem;
+                }
             }
+
+
         }
+
+
     }
 
     &-d {

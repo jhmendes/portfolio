@@ -39,6 +39,8 @@ button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
     background: $main-color;
+    color: #fff;
+    border-radius: 15px;
 }
 
 //Backgrounds
@@ -63,7 +65,7 @@ input[class^='btn-']:hover {
 }
 
 .lead {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 
 }

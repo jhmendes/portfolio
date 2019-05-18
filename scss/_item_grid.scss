@@ -9,12 +9,13 @@
     position: relative;
     background: $main-color;
     overflow: hidden;
+    height: 19.5rem;
 
     &:after {
         content:'';
         position: absolute;
         display: block;
-        background: inherit;
+        background: $main-color;
         opacity: 0.9;
         top: 0;
         left: 0;
@@ -63,6 +64,36 @@
         width: 100%;
         height: auto;
         line-height: 0;
+    }
+
+    /**********ITEM IMAGES**********/ 
+
+    &-1 {
+        background: url('../img/work/newsgrid.png') no-repeat center center/cover;
+    }
+    &-2 {
+        background: url('../img/work/edge.jpg') no-repeat center center/cover;
+    }
+    &-3 {
+        background: url('../img/work/travel.jpg') no-repeat center center/cover;
+    }
+    &-4 {
+        background: url('../img/work/chic.jpg') no-repeat center center/cover;
+    }
+    &-5 {
+        background: url('../img/work/natours.jpg') no-repeat center center/cover;
+    }
+    &-6 {
+        background: url('../img/work/nexter.jpg') no-repeat center center/cover;
+    }
+    &-7 {
+        background: url('../img/work/social.jpg') no-repeat center center/cover;
+    }
+    &-8 {
+        background: url('../img/work/omni.jpg') no-repeat center center/cover;
+    }
+    &-9 {
+        background: url('../img/work/budget.jpg') no-repeat center center/cover;
     }
 
     &-text {
