@@ -12,6 +12,25 @@ $dark-color: #333;
 // $dark-color: #333;
 $bg-image: url('../img/bg.jpg');
 
+//Skill Icon Colors:
+
+$html: #e34f26;
+$css: #006EBD;
+$sass: #CF649A;
+$javascript: #f7df1e;
+$bootstrap: #563E7C;
+$wordpress: #21759b;
+$gulp: #DA4648;
+$npm: #CB3837;
+$php: #8892be;
+$sketch: #FDAD01;
+$a11y: #68AEFE;
+$git: #F05033;
+$node: #6cc24a;
+$responsive: #00d8ff;
+$user: #7f181b;
+
+
 //Set Text Color
 @function set-text-color($color) {
     @if(lightness($color) > 50) {

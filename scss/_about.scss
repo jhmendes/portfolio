@@ -21,11 +21,12 @@
         .bio {
             grid-area: bio;
             border-left: 3px solid $main-color;
-            padding: 2rem;
+            padding: 1rem;
             text-align: left;
 
             p {
                 font-size: 20px;
+                padding-bottom: 1rem;
             }
         }
 
@@ -76,10 +77,63 @@
 
             p {
                 font-size: 2rem;
+              
 
                 i {
                     display: block;
                     font-size: 3.5rem;
+
+                    &.fa-html5 {
+                        color: $html;
+                    }
+                    &.fa-css3-alt {
+                        color: $css;
+                    }
+                    &.fa-sass {
+                        color: $sass;
+                    }
+                    &.fa-bootstrap {
+                        color: $bootstrap;
+                    }
+                    &.fa-js {
+                        color: $javascript;
+                    }
+                    &.fa-npm {
+                        color: $npm;
+                    }
+                    &.fa-gulp {
+                        color: $gulp;
+                    }
+                    &.fa-code-branch {
+                        color: $git;
+                    }
+                    &.fa-wordpress {
+                        color: $wordpress;
+                    }
+                    &.fa-php {
+                        color: $php;
+                    }
+                    &.fa-sketch {
+                        color: $sketch;
+                    }
+                    &.fa-universal-access {
+                        color: $a11y;
+                    }
+                    &.fa-node {
+                        color: $node;
+                    }
+                    &.fa-github {
+                        color: #fff;
+                    }
+                    &.fa-desktop {
+                        color: $responsive;
+                    }
+                    &.fa-user {
+                        color: $main-color;
+                    }
+
+
+
                 }
             }
 
