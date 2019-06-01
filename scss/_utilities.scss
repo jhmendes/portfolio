@@ -146,3 +146,11 @@ input[class^='btn-']:hover {
     display: block;
     margin: 0 auto 1rem auto;
 }
+
+//Box Shadow Class
+
+.box-shadow-small {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
