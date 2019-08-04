@@ -32,7 +32,7 @@
             border-color: $medium-color;
         }
         &.current {
-            border-color: $main-color;
+            border-color: $light-color;
         }
     }
 }
@@ -43,7 +43,7 @@
 
         //Header home
         position: relative;
-        background: rgba(51, 51, 51,.75);
+        background: rgba(0, 26, 88,.75);
         height: 100vh;
         color: #fff; 
 
