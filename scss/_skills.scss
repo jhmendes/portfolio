@@ -2,6 +2,7 @@
   padding-left: 3rem;
   padding-right: 3rem;
   background: $main-color;
+  color: set-text-color($dark-color);
 
     p:not(.lead) {
         font-size: 1.5rem;

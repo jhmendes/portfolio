@@ -1,7 +1,8 @@
 //Contact 
 
 #contact {
-    background: $secondary-color;
+    background: $medium-color;
+    color: set-text-color($light-color);
     
         .text-fields {
             display: grid;
