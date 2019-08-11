@@ -1,13 +1,13 @@
 //Footer 
 
 #main-footer {
-    background: $dark-color;
-    color: #fff;
+    background: $light-color;
+    color: $dark-color;
     height: 5rem;
 
     .footer-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         height: 5rem;
         align-items: center;
 

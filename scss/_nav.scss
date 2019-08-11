@@ -1,0 +1,79 @@
+#main-nav {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e67300+19,001a58+80 */
+  background: #e67300; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #e67300 19%,
+    #001a58 80%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #e67300 19%,
+    #001a58 80%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #e67300 19%,
+    #001a58 80%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e67300', endColorstr='#001a58',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 17rem;
+  padding: 0 1rem;
+  height: 100vh;
+  display: flex;
+//   justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+
+  .img {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+
+  .social {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+
+    &:hover {
+      border-color: $secondary-color;
+    }
+    &.current {
+      border-color: $light-color;
+    }
+  }
+}

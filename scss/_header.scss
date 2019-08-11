@@ -5,37 +5,6 @@
     height: 50px;
 }
 
-// Main nav
-
-#main-nav {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-
-    ul {
-        display: flex;
-    }
-
-    li {
-        padding: 1rem 1.5rem;
-    }
-
-    a {
-        text-decoration: none;
-        color: #fff;
-        text-transform: uppercase;
-        border-bottom: 3px transparent solid;
-        padding-bottom: 0.5rem;
-        transition: border-color 0.5s;
-
-        &:hover {
-            border-color: $medium-color;
-        }
-        &.current {
-            border-color: $light-color;
-        }
-    }
-}
 //  Header
 
 #header {
@@ -43,9 +12,12 @@
 
         //Header home
         position: relative;
-        background: rgba(0, 26, 88,.75);
+        background: rgba(0, 26, 88,.60);
         height: 100vh;
         color: #fff; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
        
             &:before {

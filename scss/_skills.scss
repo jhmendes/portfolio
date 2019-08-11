@@ -1,0 +1,85 @@
+ #skills {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: $main-color;
+
+    p:not(.lead) {
+        font-size: 1.5rem;
+      
+
+        i {
+            display: block;
+            font-size: 3.5rem;
+
+            &.fa-html5 {
+                color: $html;
+            }
+            &.fa-css3-alt {
+                color: $css;
+            }
+            &.fa-sass {
+                color: $sass;
+            }
+            &.fa-bootstrap {
+                color: $bootstrap;
+            }
+            &.fa-js {
+                color: $javascript;
+            }
+            &.fa-npm {
+                color: $npm;
+            }
+            &.fa-gulp {
+                color: $gulp;
+            }
+            &.fa-code-branch {
+                color: $git;
+            }
+            &.fa-wordpress {
+                color: $wordpress;
+            }
+            &.fa-php {
+                color: $php;
+            }
+            &.fa-sketch {
+                color: $sketch;
+            }
+            &.fa-universal-access {
+                color: $a11y;
+            }
+            &.fa-node {
+                color: $node;
+            }
+            &.fa-github {
+                color: #fff;
+            }
+            &.fa-desktop {
+                color: $responsive;
+            }
+            &.fa-database {
+                color: $sql;
+            }
+
+
+
+        }
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 2rem;
+    }
+
+    .slick-skills {
+        display: flex;
+        align-items: center;
+    }
+
+    .lead {
+        margin-bottom: 5rem;
+    }
+
+
+    .bottom-line {
+        background: $light-color;
+    }
+}

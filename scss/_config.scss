@@ -1,15 +1,13 @@
 //Variables 
 
 $website-width: 1280px;
-$main-color: rgb(0, 26, 88);
+$main-color: #000066;
+$secondary-color: #e67300;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #333;
 
-// $main-color: purple; 
-// $light-color: blue;
-// $medium-color: #fff;
-// $dark-color: #333;
+//Hero Background Image
 $bg-image: url('../img/laptop.jpg');
 
 //Skill Icon Colors:
@@ -50,6 +48,7 @@ body {
     font-family: 'Dosis', sans-serif;
     line-height: 1.6;
     background: #fff;
+    padding-left: 19rem;
  }
 
  a {

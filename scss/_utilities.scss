@@ -1,8 +1,8 @@
 .container {
     max-width: $website-width;
-    padding: 0 1.5rem;
+    padding: 0 3rem;
     margin: auto;
-    overflow: hidden;
+    // overflow: hidden;
 } 
 
 .drop-cap {
@@ -48,7 +48,7 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-    background: $main-color;
+    background: $secondary-color;
     color: #fff;
     border-radius: 15px;
 }
@@ -97,6 +97,9 @@ input[class^='btn-']:hover {
     }
     &-4 {
         padding: 4rem 0;
+    }
+    &-5 {
+        padding: 5rem 0;
     }
 }
 
@@ -150,7 +153,7 @@ input[class^='btn-']:hover {
 //Box Shadow Class
 
 .box-shadow-small {
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
