@@ -17,7 +17,7 @@
         content:'';
         position: absolute;
         display: block;
-        background: $main-color;
+        background: $secondary-color;
         opacity: 0.9;
         top: 0;
         left: 0;
@@ -70,32 +70,36 @@
 
     /**********ITEM IMAGES**********/ 
 
-    &-1 {
-        background: url('../img/work/newsgrid.png') no-repeat center center/cover;
-    }
-    &-2 {
+    &-edge {
         background: url('../img/work/edge.jpg') no-repeat center center/cover;
     }
-    &-3 {
+    &-travel {
         background: url('../img/work/travel.jpg') no-repeat center center/cover;
     }
-    &-4 {
+    &-chic {
         background: url('../img/work/chic.jpg') no-repeat center center/cover;
     }
-    &-5 {
+    &-natours {
         background: url('../img/work/natours.jpg') no-repeat center center/cover;
     }
-    &-6 {
+    &-nexter {
         background: url('../img/work/nexter.jpg') no-repeat center center/cover;
     }
-    &-7 {
+    &-headphone {
         background: url('../img/work/headphone.png') no-repeat center center/cover;
     }
-    &-8 {
+    &-omni {
         background: url('../img/work/omni.jpg') no-repeat center center/cover;
     }
-    &-9 {
+    &-budget {
         background: url('../img/work/budget.jpg') no-repeat center center/cover;
+    }
+
+    &-steak {
+        background: url('../img/work/steakhouse.png') no-repeat center center/cover;
+    }
+    &-conf {
+        background: url('../img/work/conference.png') no-repeat center center/cover;  
     }
 
     &-text {

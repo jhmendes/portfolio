@@ -1,8 +1,8 @@
 //Variables 
 
 $website-width: 1280px;
-$main-color: #003d66;
-$secondary-color: #861618;
+$main-color: rgba(19, 41, 61, 1);
+$secondary-color: rgba(27, 152, 224, 1);
 $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #333;
@@ -78,7 +78,7 @@ body {
  
  .arrow {
    text-align: center;
-   margin: 8% 0;
+   margin: 12% 0;
  }
  .bounce {
    -moz-animation: bounce 2s infinite;
